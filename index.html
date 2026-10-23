@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Barbearia BROTHER'S | Daniel Fonseca, Uberlândia</title>
+<meta name="description" content="Barbearia BROTHER'S em Uberlândia (MG): atendimento, profissionais, organização, higiene e conforto. Chame no WhatsApp e consulte serviços e disponibilidade.">
+<meta name="theme-color" content="#121212">
+<meta property="og:title" content="Barbearia BROTHER'S | Uberlândia">
+<meta property="og:description" content="Atendimento, higiene e conforto no Daniel Fonseca. Chame no WhatsApp.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BarberShop",
+  "name": "Barbearia BROTHER'S",
+  "telephone": "+55 34 99886-1220",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Marcos de Freitas Costa, 730",
+    "addressLocality": "Uberlândia",
+    "addressRegion": "MG",
+    "postalCode": "38400-431",
+    "addressCountry": "BR"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": -18.9192725, "longitude": -48.2962055 }
+}
+</script>
+<style>
+:root{
+  --bg:#121212; --bg2:#1a1a19; --ink:#f2ede4; --mute:#a9a39a; --line:#2c2b29;
+  --accent:#e4572e; --accent-ink:#161210;
+  --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --text:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --gut:clamp(20px,5vw,72px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{background:var(--bg);color:var(--ink);font-family:var(--text);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img,iframe{max-width:100%}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:2px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--accent);color:var(--accent-ink);padding:10px 16px;z-index:100;font-weight:700}
+.skip:focus{left:8px}
+.wrap{padding-inline:var(--gut);max-width:1360px;margin-inline:auto}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:.6em;font:700 .95rem/1 var(--text);letter-spacing:.04em;text-transform:uppercase;text-decoration:none;padding:1.05em 1.5em;border:2px solid var(--accent);background:var(--accent);color:var(--accent-ink);cursor:pointer;transition:transform .2s,background .2s,color .2s,border-color .2s}
+.btn:hover{background:var(--ink);border-color:var(--ink);transform:translateY(-2px)}
+.btn:active{transform:translateY(0)}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink)}
+.btn.ghost:hover{background:var(--ink);color:var(--bg)}
+.btn svg{width:1.15em;height:1.15em;flex:none}
+
+/* header */
+header.top{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(18,18,18,.86);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+.sig{font:900 1.7rem/1 var(--display);letter-spacing:.06em;text-decoration:none;text-transform:uppercase}
+.sig i{font-style:normal;color:var(--accent)}
+nav ul{display:flex;gap:2rem;list-style:none;align-items:center}
+nav a{text-decoration:none;font-size:.9rem;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);transition:color .2s}
+nav a:hover{color:var(--ink)}
+nav a.btn{color:var(--accent-ink);padding:.8em 1.1em}
+nav a.btn:hover{color:var(--bg)}
+.burger{display:none;background:none;border:2px solid var(--line);color:var(--ink);width:44px;height:44px;cursor:pointer}
+.burger span{display:block;width:20px;height:2px;background:currentColor;margin:5px auto;transition:.2s}
+
+/* hero */
+.hero{min-height:100svh;padding-top:68px;display:grid;align-items:end;position:relative;overflow:hidden;
+  background:
+   radial-gradient(900px 500px at 82% 18%,rgba(228,87,46,.16),transparent 60%),
+   var(--bg)}
+.hero::before{content:"";position:absolute;right:var(--gut);top:68px;bottom:0;width:1px;background:var(--line)}
+.hero .wrap{width:100%;padding-block:clamp(40px,8vh,90px) clamp(36px,6vh,64px);position:relative}
+.kicker{font:700 .8rem/1 var(--text);letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:1.6rem;display:flex;gap:.8rem;align-items:center}
+.kicker::before{content:"";width:40px;height:2px;background:var(--accent)}
+h1{font:900 clamp(3.6rem,13vw,11.5rem)/.84 var(--display);text-transform:uppercase;letter-spacing:-.01em}
+h1 .out{color:transparent;-webkit-text-stroke:2px var(--ink)}
+h1 .acc{color:var(--accent)}
+.hero-sub{max-width:34rem;margin-top:2rem;color:var(--mute);font-size:1.12rem}
+.hero-sub strong{color:var(--ink);font-weight:500}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:2.2rem}
+.badge{position:absolute;right:var(--gut);bottom:clamp(36px,6vh,64px);text-align:right;padding-right:22px}
+.badge b{display:block;font:900 clamp(4rem,8vw,7rem)/.9 var(--display);color:var(--ink)}
+.badge b small{font-size:.35em;color:var(--mute);font-weight:700}
+.badge span{display:block;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.badge em{display:block;font-style:normal;font-size:.72rem;color:#7d786f;margin-top:.5rem;max-width:15rem;margin-left:auto;line-height:1.4;letter-spacing:.02em;text-transform:none}
+.stars{color:var(--accent);letter-spacing:.2em;font-size:1rem}
+.ticker{border-block:1px solid var(--line);overflow:hidden;white-space:nowrap;background:var(--bg2)}
+.ticker div{display:inline-block;padding:1rem 0;font:800 1.5rem/1 var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--mute);animation:slide 38s linear infinite}
+.ticker span{margin-inline:1.4rem;color:var(--accent)}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+/* sections */
+section{padding-block:clamp(72px,11vw,150px)}
+.label{font:700 .78rem/1 var(--text);letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:1.2rem}
+h2{font:900 clamp(2.6rem,7vw,6rem)/.92 var(--display);text-transform:uppercase}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,7vw,120px);align-items:start}
+.about p{color:var(--mute);max-width:34rem}
+.about p+p{margin-top:1.1rem}
+.about p strong{color:var(--ink);font-weight:500}
+.pillars{display:grid;grid-template-columns:repeat(5,1fr);margin-top:clamp(48px,7vw,96px);border-top:1px solid var(--line)}
+.pillars div{padding:1.6rem 1rem 0 0;border-right:1px solid var(--line);padding-left:1.2rem}
+.pillars div:first-child{padding-left:0}
+.pillars div:last-child{border-right:0}
+.pillars b{display:block;font:800 1.7rem/1 var(--display);text-transform:uppercase;letter-spacing:.04em}
+.pillars small{display:block;margin-top:.5rem;color:var(--mute);font-size:.82rem;letter-spacing:.14em;text-transform:uppercase}
+
+.services{background:var(--ink);color:var(--bg)}
+.services .label{color:#b23a18}
+.svc-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(32px,7vw,110px);margin-top:3rem;align-items:start}
+.services p{color:#4a463f;max-width:32rem}
+.steps{list-style:none;counter-reset:s;border-top:2px solid var(--bg)}
+.steps li{counter-increment:s;display:grid;grid-template-columns:4.5rem 1fr;gap:1rem;padding:1.4rem 0;border-bottom:1px solid #c9c2b6}
+.steps li::before{content:"0" counter(s);font:900 3rem/1 var(--display);color:#b23a18}
+.steps b{display:block;font:800 1.5rem/1.1 var(--display);text-transform:uppercase;letter-spacing:.03em}
+.steps span{color:#4a463f;font-size:.95rem}
+.services .btn{margin-top:2rem;background:var(--bg);border-color:var(--bg);color:var(--ink)}
+.services .btn:hover{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.note{font-size:.8rem;color:#6b665d;margin-top:1rem}
+
+.proof-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:2rem}
+.score{display:flex;align-items:baseline;gap:1rem}
+.score b{font:900 clamp(5rem,10vw,9rem)/.8 var(--display);color:var(--accent)}
+.score span{color:var(--mute);font-size:.95rem;max-width:12rem;line-height:1.4}
+.quotes{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:clamp(24px,4vw,56px);margin-top:clamp(40px,6vw,80px)}
+blockquote{border-top:2px solid var(--ink);padding-top:1.4rem}
+blockquote:first-child p{font:700 clamp(1.7rem,3vw,2.5rem)/1.12 var(--display);text-transform:uppercase;letter-spacing:.01em}
+blockquote p{font-size:1.05rem;color:var(--ink)}
+blockquote footer{margin-top:1rem;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.proof-link{margin-top:2.5rem;display:inline-block;color:var(--ink);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:.85rem;text-underline-offset:6px;text-decoration-color:var(--accent);text-decoration-thickness:2px}
+
+.loc{background:var(--bg2);border-block:1px solid var(--line)}
+.loc-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(28px,6vw,90px);margin-top:2.6rem;align-items:start}
+address{font-style:normal;font-size:1.2rem;line-height:1.5}
+address small{display:block;color:var(--mute);font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:.3rem}
+.addr-block+.addr-block{margin-top:1.6rem}
+.loc-actions{display:flex;flex-direction:column;gap:12px;margin-top:2rem;align-items:flex-start}
+.tabs{display:flex;gap:0;border:2px solid var(--line);width:max-content;max-width:100%}
+.tabs button{font:700 .8rem/1 var(--text);letter-spacing:.12em;text-transform:uppercase;padding:1em 1.4em;background:transparent;color:var(--mute);border:0;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg)}
+.frame{margin-top:1rem;position:relative;aspect-ratio:4/3;background:#0d0d0d;border:1px solid var(--line)}
+.frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.frame[hidden]{display:none}
+.sv-fallback{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:clamp(24px,5vw,56px);background:radial-gradient(600px 300px at 85% 10%,rgba(228,87,46,.14),transparent 60%),#0d0d0d}
+.sv-kicker{font:700 .78rem/1 var(--text);letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin-bottom:1rem}
+.sv-title{font:900 clamp(2rem,5vw,3.4rem)/.95 var(--display);text-transform:uppercase}
+.sv-text{color:var(--mute);max-width:30rem;margin:1rem 0 1.6rem;font-size:.98rem}
+.frame iframe.sv-live{z-index:1}
+
+.final{text-align:left;position:relative;overflow:hidden}
+.final h2{font-size:clamp(3rem,10vw,9rem)}
+.final h2 .acc{color:var(--accent)}
+.final p{color:var(--mute);max-width:34rem;margin:1.8rem 0 2.2rem}
+.final .btn{font-size:1.05rem;padding:1.2em 1.9em}
+
+footer.bottom{border-top:1px solid var(--line);padding-block:48px 36px;background:var(--bg)}
+.foot{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:2.5rem}
+.foot h3{font:700 .75rem/1 var(--text);letter-spacing:.2em;text-transform:uppercase;color:var(--mute);margin-bottom:1rem}
+.foot ul{list-style:none}
+.foot li{margin-bottom:.45rem}
+.foot a{text-decoration:none;color:var(--ink)}
+.foot a:hover{color:var(--accent)}
+.foot address{font-size:.98rem}
+.copy{margin-top:2.5rem;padding-top:1.4rem;border-top:1px solid var(--line);font-size:.8rem;color:var(--mute)}
+
+.fab{position:fixed;right:16px;bottom:16px;z-index:40;display:none}
+
+.rv{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}
+.rv.in{opacity:1;transform:none}
+
+@media (max-width:900px){
+  .burger{display:block}
+  nav{position:absolute;top:68px;left:0;right:0;background:var(--bg);border-bottom:1px solid var(--line);display:none}
+  nav.open{display:block}
+  nav ul{flex-direction:column;align-items:stretch;gap:0;padding:8px var(--gut) 24px}
+  nav li a:not(.btn){display:block;padding:1rem 0;border-bottom:1px solid var(--line)}
+  nav a.btn{margin-top:1rem;justify-content:center}
+  .about,.svc-grid,.loc-grid,.quotes,.foot{grid-template-columns:1fr}
+  .pillars{grid-template-columns:1fr 1fr}
+  .pillars div{padding:1.2rem 0 1.2rem 1rem;border-bottom:1px solid var(--line)}
+  .pillars div:nth-child(odd){padding-left:0}
+  .pillars div:nth-child(2n){border-right:0}
+  .badge{position:static;text-align:left;padding:0;margin-top:2.4rem}
+  .badge em{margin-left:0}
+  .hero::before{display:none}
+  h1 .out{-webkit-text-stroke:1.5px var(--ink)}
+  .fab{display:block}
+  .fab .btn{box-shadow:0 8px 24px rgba(0,0,0,.5)}
+  body{padding-bottom:0}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .rv{opacity:1;transform:none;transition:none}
+  .ticker div{animation:none}
+  .btn{transition:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="sig" href="#topo" aria-label="BROTHER'S, início">BROTHER<i>'</i>S</a>
+    <button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+    <nav id="menu" aria-label="Principal">
+      <ul>
+        <li><a href="#sobre">A barbearia</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#avaliacoes">Avaliações</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a class="btn wa" href="#" target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+<section class="hero" id="topo" style="padding-block:0">
+  <div class="wrap">
+    <p class="kicker">Barbearia · Daniel Fonseca · Uberlândia</p>
+    <h1><span class="out">Chegue</span><br>como está.<br><span class="acc">Saia</span> como quer.</h1>
+    <p class="hero-sub"><strong>Bons profissionais, ambiente organizado e higienizado.</strong> A BROTHER'S é onde o atendimento faz diferença e você se sente à vontade na cadeira.</p>
+    <div class="hero-actions">
+      <a class="btn wa" href="#" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-1.9 1.3-.5.1-1.1.1-3.5-.8-2.9-1.2-4.7-4.1-4.9-4.3-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .6l-.4.6c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.8.9c.3.1.5.2.5.3.1.2.1.8-.2 1.5Z"/></svg>Consultar agendamento</a>
+      <a class="btn ghost" href="#localizacao">Ver localização</a>
+    </div>
+    <div class="badge">
+      <span class="stars" aria-hidden="true">★★★★★</span>
+      <b>5,0<small>/5</small></b>
+      <span>17 avaliações no Google Maps</span>
+      <em>Nota informada pelo perfil no Google Maps; pode variar com o tempo.</em>
+    </div>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div>
+  Atendimento<span>/</span>Profissionais<span>/</span>Organização<span>/</span>Higiene<span>/</span>Conforto<span>/</span>
+  Atendimento<span>/</span>Profissionais<span>/</span>Organização<span>/</span>Higiene<span>/</span>Conforto<span>/</span>
+  Atendimento<span>/</span>Profissionais<span>/</span>Organização<span>/</span>Higiene<span>/</span>Conforto<span>/</span>
+  Atendimento<span>/</span>Profissionais<span>/</span>Organização<span>/</span>Higiene<span>/</span>Conforto<span>/</span>
+</div></div>
+
+<section id="sobre">
+  <div class="wrap">
+    <div class="about">
+      <div class="rv">
+        <p class="label">A barbearia</p>
+        <h2>Cuidado com o<br>cliente vem<br>primeiro.</h2>
+      </div>
+      <div class="rv">
+        <p><strong>A BROTHER'S fica no bairro Daniel Fonseca, em Uberlândia.</strong> Quem passa por lá destaca sempre as mesmas coisas: profissionais de qualidade, atendimento atencioso e um espaço limpo e bem organizado.</p>
+        <p>É uma barbearia pensada para você relaxar enquanto o trabalho é feito com capricho. Sem pressa, sem improviso, com um clima bom e confortável.</p>
+      </div>
+    </div>
+    <div class="pillars rv">
+      <div><b>Atendimento</b><small>Dos bons</small></div>
+      <div><b>Profissionais</b><small>Excelentes</small></div>
+      <div><b>Organização</b><small>Em cada detalhe</small></div>
+      <div><b>Higiene</b><small>Ambiente higienizado</small></div>
+      <div><b>Conforto</b><small>Clima bom</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="servicos">
+  <div class="wrap">
+    <p class="label">Serviços</p>
+    <h2 class="rv">Pergunte direto<br>à equipe.</h2>
+    <div class="svc-grid">
+      <div class="rv">
+        <p>Os serviços, valores e a disponibilidade de horários são combinados diretamente com a barbearia. Mande uma mensagem e veja o que está disponível para você.</p>
+        <a class="btn wa" href="#" target="_blank" rel="noopener noreferrer">Consultar serviços no WhatsApp</a>
+        <p class="note">Esta página não exibe tabela de preços nem faz reservas automáticas.</p>
+      </div>
+      <ol class="steps rv">
+        <li><div><b>Chame no WhatsApp</b><span>Uma mensagem já preparada abre a conversa com a barbearia.</span></div></li>
+        <li><div><b>Consulte serviços</b><span>Pergunte o que você precisa e verifique a disponibilidade.</span></div></li>
+        <li><div><b>Combine com a equipe</b><span>O atendimento é definido diretamente com a BROTHER'S.</span></div></li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section id="avaliacoes">
+  <div class="wrap">
+    <div class="proof-head">
+      <div>
+        <p class="label">Avaliações</p>
+        <h2 class="rv">Quem vai,<br>comenta.</h2>
+      </div>
+      <div class="score rv"><b>5,0</b><span>17 avaliações no Google Maps, conforme informado no perfil.</span></div>
+    </div>
+    <div class="quotes">
+      <blockquote class="rv"><p>“Atendimento excelente, ótimos profissionais, clima bom e ambiente confortável.”</p><footer>Cliente · Google Maps</footer></blockquote>
+      <blockquote class="rv"><p>“Excelentes profissionais, ambiente organizado, higienizado, melhor atendimento!”</p><footer>Cliente · Google Maps</footer></blockquote>
+      <blockquote class="rv"><p>“Excelente espaço, trabalho impecável e atendimento dos bons.”</p><footer>Cliente · Google Maps</footer></blockquote>
+    </div>
+    <a class="proof-link" id="gmaps-link" target="_blank" rel="noopener noreferrer" href="https://www.google.com.br/maps/place/Barbearia+BROTHER'S/@-18.9193369,-48.2962268,812a,75y,29.22h,90t/data=!3m7!1e1!3m5!1sg-sy8VXQIo6pcwo4QMJ4IQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3Dg-sy8VXQIo6pcwo4QMJ4IQ%26yaw%3D29.21832!7i16384!8i8192!4m13!1m2!2m1!1sbrothers+barber!3m9!1s0x94a4445c49c0ed3b:0x889614ae08c76c7d!8m2!3d-18.9192725!4d-48.2962055!10e5!14m1!1BCgIgARICCAI!15sCg9icm90aGVycyBiYXJiZXKSAQtiYXJiZXJfc2hvcOABAA!16s%2Fg%2F11mrzz1h43?entry=ttu&g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D">Ver todas as avaliações no Google Maps →</a>
+  </div>
+</section>
+
+<section class="loc" id="localizacao">
+  <div class="wrap">
+    <p class="label">Localização</p>
+    <h2 class="rv">Reconheça o<br>lugar antes<br>de sair.</h2>
+    <div class="loc-grid">
+      <div class="rv">
+        <div class="addr-block">
+          <address><small>Endereço</small>Av. Marcos de Freitas Costa, 730<br>Daniel Fonseca, Uberlândia — MG<br>CEP 38400-431</address>
+        </div>
+        <div class="addr-block">
+          <address><small>WhatsApp</small><a href="tel:+5534998861220">(34) 99886-1220</a></address>
+        </div>
+        <div class="loc-actions">
+          <a class="btn" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&destination=-18.9192725,-48.2962055">Abrir rotas no Google Maps</a>
+          <a class="btn ghost wa" href="#" target="_blank" rel="noopener noreferrer">Falar no WhatsApp</a>
+        </div>
+      </div>
+      <div class="rv">
+        <div class="tabs" role="tablist" aria-label="Tipo de visualização">
+          <button role="tab" id="tab-map" aria-selected="true" aria-controls="pane-map">Mapa</button>
+          <button role="tab" id="tab-sv" aria-selected="false" aria-controls="pane-sv" tabindex="-1">Street View</button>
+        </div>
+        <div class="frame" id="pane-map" role="tabpanel" aria-labelledby="tab-map">
+          <iframe title="Mapa da Barbearia BROTHER'S, Av. Marcos de Freitas Costa, 730, Uberlândia" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=-18.9192725,-48.2962055&z=17&output=embed"></iframe>
+        </div>
+        <div class="frame" id="pane-sv" role="tabpanel" aria-labelledby="tab-sv" hidden>
+          <div class="sv-fallback" id="sv-fallback">
+            <p class="sv-kicker">Street View</p>
+            <p class="sv-title">Veja a fachada antes de sair.</p>
+            <p class="sv-text">O Google não permite exibir o Street View aqui sem uma chave de incorporação. Abra a visualização original no Google Maps para reconhecer o local.</p>
+            <a class="btn" id="sv-open" target="_blank" rel="noopener noreferrer" href="https://www.google.com.br/maps/place/Barbearia+BROTHER'S/@-18.9193369,-48.2962268,812a,75y,29.22h,90t/data=!3m7!1e1!3m5!1sg-sy8VXQIo6pcwo4QMJ4IQ!2e0!6shttps:%2F%2Fstreetviewpixels-pa.clients6.google.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D0%26panoid%3Dg-sy8VXQIo6pcwo4QMJ4IQ%26yaw%3D29.21832!7i16384!8i8192!4m13!1m2!2m1!1sbrothers+barber!3m9!1s0x94a4445c49c0ed3b:0x889614ae08c76c7d!8m2!3d-18.9192725!4d-48.2962055!10e5!14m1!1BCgIgARICCAI!15sCg9icm90aGVycyBiYXJiZXKSAQtiYXJiZXJfc2hvcOABAA!16s%2Fg%2F11mrzz1h43?entry=ttu&g_ep=EgoyMDI2MTAxOS4wIKXMDSoASAFQAw%3D%3D">Abrir Street View no Google Maps →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2 class="rv">Vamos<br>marcar o <span class="acc">seu?</span></h2>
+    <p>Chame a BROTHER'S no WhatsApp, consulte os serviços e veja a disponibilidade de horários.</p>
+    <a class="btn wa" href="#" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-1.9 1.3-.5.1-1.1.1-3.5-.8-2.9-1.2-4.7-4.1-4.9-4.3-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .6l-.4.6c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.8.9c.3.1.5.2.5.3.1.2.1.8-.2 1.5Z"/></svg>Chamar no WhatsApp</a>
+  </div>
+</section>
+</main>
+
+<footer class="bottom">
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a class="sig" href="#topo">BROTHER<i>'</i>S</a>
+        <address style="margin-top:1rem;color:var(--mute)">Av. Marcos de Freitas Costa, 730<br>Daniel Fonseca, Uberlândia — MG<br>CEP 38400-431</address>
+      </div>
+      <div>
+        <h3>Navegação</h3>
+        <ul>
+          <li><a href="#sobre">A barbearia</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#avaliacoes">Avaliações</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contato</h3>
+        <ul>
+          <li><a class="wa" href="#" target="_blank" rel="noopener noreferrer">WhatsApp (34) 99886-1220</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir/?api=1&destination=-18.9192725,-48.2962055">Como chegar</a></li>
+          <li><a class="gm" target="_blank" rel="noopener noreferrer" href="#">Perfil no Google Maps</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="copy">© <span id="year">2026</span> Barbearia BROTHER'S. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<div class="fab"><a class="btn wa" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a></div>
+
+<script>
+(function(){
+  var msg = "Olá! Vim pelo site da BROTHER'S e gostaria de consultar os serviços e verificar a disponibilidade para agendamento.";
+  var wa = "https://wa.me/5534998861220?text=" + encodeURIComponent(msg);
+  document.querySelectorAll("a.wa").forEach(function(a){ a.href = wa; });
+  var g = document.getElementById("gmaps-link");
+  document.querySelectorAll("a.gm").forEach(function(a){ a.href = g.href; });
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // menu mobile
+  var b = document.querySelector(".burger"), n = document.getElementById("menu");
+  function close(){ n.classList.remove("open"); b.setAttribute("aria-expanded","false"); b.setAttribute("aria-label","Abrir menu"); }
+  b.addEventListener("click", function(){
+    var o = n.classList.toggle("open");
+    b.setAttribute("aria-expanded", o); b.setAttribute("aria-label", o ? "Fechar menu" : "Abrir menu");
+  });
+  n.addEventListener("click", function(e){ if(e.target.closest("a")) close(); });
+  document.addEventListener("keydown", function(e){ if(e.key === "Escape") close(); });
+
+  // abas mapa / street view
+  // Para ativar o Street View interativo: ative a "Maps Embed API" no Google Cloud, crie uma chave
+  // restrita por referrer HTTP ao seu domínio e cole-a abaixo. Sem chave, aparece o link para o Google Maps.
+  var SV_EMBED_KEY = "";
+  var tm = document.getElementById("tab-map"), ts = document.getElementById("tab-sv");
+  var pm = document.getElementById("pane-map"), ps = document.getElementById("pane-sv");
+  function show(sv){
+    ts.setAttribute("aria-selected", sv); tm.setAttribute("aria-selected", !sv);
+    ts.tabIndex = sv ? 0 : -1; tm.tabIndex = sv ? -1 : 0;
+    ps.hidden = !sv; pm.hidden = sv;
+    if(sv && SV_EMBED_KEY && !ps.querySelector("iframe")){
+      var f = document.createElement("iframe");
+      f.className = "sv-live"; f.loading = "lazy"; f.referrerPolicy = "no-referrer-when-downgrade"; f.allowFullscreen = true;
+      f.title = "Street View em frente à Barbearia BROTHER'S";
+      f.src = "https://www.google.com/maps/embed/v1/streetview?key=" + encodeURIComponent(SV_EMBED_KEY) + "&location=-18.9192725,-48.2962055&heading=29&pitch=0&fov=90";
+      ps.appendChild(f);
+    }
+  }
+  tm.addEventListener("click", function(){ show(false); });
+  ts.addEventListener("click", function(){ show(true); });
+  [tm, ts].forEach(function(t){ t.addEventListener("keydown", function(e){
+    if(e.key === "ArrowRight" || e.key === "ArrowLeft"){ var sv = t === tm; show(sv); (sv ? ts : tm).focus(); }
+  });});
+
+  // revelar ao rolar
+  var els = document.querySelectorAll(".rv");
+  if("IntersectionObserver" in window){
+    var io = new IntersectionObserver(function(es){ es.forEach(function(x){ if(x.isIntersecting){ x.target.classList.add("in"); io.unobserve(x.target); } }); }, {threshold:.12});
+    els.forEach(function(e){ io.observe(e); });
+  } else { els.forEach(function(e){ e.classList.add("in"); }); }
+})();
+</script>
+</body>
+</html>
